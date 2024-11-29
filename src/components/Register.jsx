@@ -29,6 +29,7 @@ export default function Register(){
     const [isValid, setIsValid] = useState(false);
     const [id, setId] = useState("");
 
+    //email valid
     const validateEmail = (email) => {
         return String(email)
           .toLowerCase()
@@ -40,6 +41,7 @@ export default function Register(){
     let regex = 
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@.#$!%*?&])[A-Za-z\d@.#$!%*?&]{8,15}$/;
 
+      
       useEffect(()=>{
         if(
         formData.ad.trim().length >=3 && 
