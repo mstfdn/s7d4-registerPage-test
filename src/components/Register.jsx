@@ -81,7 +81,7 @@ export default function Register(){
             }
         }
     };
-
+    //validation
     const handleSubmit = (event) => {
         event.preventDefault();
         if(!isValid) return;
