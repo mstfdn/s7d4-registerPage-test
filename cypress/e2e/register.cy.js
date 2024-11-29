@@ -1,5 +1,5 @@
 import { errorMessages } from "../../src/components/Register";
-
+//e2e test
 describe('Register Page', () => {
   beforeEach(()=>{
     cy.visit("http://localhost:5173/")
