@@ -38,7 +38,8 @@ export default function Register(){
           );
       };
 
-    let regex = 
+    //password part
+      let regex = 
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@.#$!%*?&])[A-Za-z\d@.#$!%*?&]{8,15}$/;
 
       
